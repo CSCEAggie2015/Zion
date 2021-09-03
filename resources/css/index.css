@@ -1,0 +1,88 @@
+ body {
+    font-family: Calibri;
+  /*  background-image: url('../../images/zion.jpg');
+*/} 
+
+ul, li {
+    display: inline;
+    padding: 10px 16px;
+    list-style: none;
+}
+
+h1, h2 {
+    font-family: Calibri;
+    font-size: 50px;
+    font-weight: bold;
+    color: tan;
+    text-align: center;
+    background-color: rgba(255, 212, 163, 0.60);
+}
+
+h2 {
+    font-size: 32px;
+
+}
+
+p {
+    color:rgb(109, 64, 9);
+    background-color: rgba(255, 212, 163, 0.45);
+}
+
+figcaption {
+    text-align: center;
+    color:rgb(109, 64, 9);
+}
+
+.kitchen, .laundry, .map, .quicksand {
+    height: 25%;
+    width: 25%;
+    margin: auto;
+    display: block;
+}
+
+.kitchen, .laundry, .map, .quicksand {
+    height: 25%;
+    width: 25%;
+    margin: auto;
+    display: inline;
+}
+
+ #quicksand {
+    height: 300px;
+    width: 60px%;
+    margin: auto;
+    display: block;
+} 
+
+.guide {
+    margin: auto;
+    display: block;
+}
+
+.airbnb, .airbnboutdoor {
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+#zion {
+    margin: auto; 
+    display: block;
+    
+}
+
+#background {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-image: url('../../images/zion.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.4;
+    filter:alp; 
+    z-index: -1000;
+}
