@@ -1,19 +1,24 @@
+ a {
+    color:rgb(109, 64, 9);
+ }
+ 
  body {
     font-family: Calibri;
-  /*  background-image: url('../../images/zion.jpg');
-*/} 
+ } 
 
-ul, li {
+ul {
     display: inline;
     padding: 10px 16px;
     list-style: none;
+    text-align: center;
 }
+
 
 h1, h2 {
     font-family: Calibri;
     font-size: 50px;
     font-weight: bold;
-    color: tan;
+    color: rgb(170, 74, 36);
     text-align: center;
     background-color: rgba(255, 212, 163, 0.60);
 }
@@ -28,28 +33,37 @@ p {
     background-color: rgba(255, 212, 163, 0.45);
 }
 
+header {
+    text-align: center;
+}
+
 figcaption {
     text-align: center;
     color:rgb(109, 64, 9);
 }
 
-.kitchen, .laundry, .map, .quicksand {
+.kitchen, .laundry, .quicksand {
     height: 25%;
     width: 25%;
     margin: auto;
     display: block;
 }
 
-.kitchen, .laundry, .map, .quicksand {
-    height: 25%;
-    width: 25%;
+
+/* Can't get the .map to behave like the rest. I originally 
+had it inside the one above with the rest. I tried % for height
+& width too.*/
+.map {
+    height: 200px;
+    width: 200px;
     margin: auto;
-    display: inline;
+    display: block;
+    align-items: right; 
 }
 
  #quicksand {
     height: 300px;
-    width: 60px%;
+    width: 150px;
     margin: auto;
     display: block;
 } 
@@ -66,7 +80,7 @@ figcaption {
     display: block;
 }
 
-#zion {
+#zion, #map{
     margin: auto; 
     display: block;
     
